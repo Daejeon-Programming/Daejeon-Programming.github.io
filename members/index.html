@@ -2,18 +2,32 @@
 <html>
 
 <head>
- <meta charset='utf-8'>
+  <meta charset='utf-8'>
   <link rel='stylesheet' type='text/css' href='style.css'>
   <title>Daejeon programming</title>
+  <link rel='stylesheet' type='text/css' href='../globalStyle.css'>
 </head>
 
 <body>
+  <header>
+    <h1>Daejeon member profiles</h1>
+  </header>
 
-  <h1>Daejeon member profiles</h1>
-  
-  <ul id='page-list'>
-  </ul>
+  <div id='middle-wrapper'>
+    <nav></nav>
+    <div> <!-- to group all the article -->
+      <article>
+        <h2>List of daejeon programming members presentation pages</h2>
+        <ul id='page-list'>
+        </ul>
+      </article>
+      <article>
+        <h2>How to add your own presentation</h2>
+        If you want to add your own page to this list, create a pull request with your html page (and eventually Css/Js files) in the members/pages directory of <a href='https://github.com/Daejeon-Programming/Daejeon-Programming.github.io'>github.com/Daejeon-Programming/Daejeon-Programming.github.io</a>.<br/> The page should be named [yourName].html</article>
+    </div>
+  </div>
 
+  <footer>Footer</footer>
 
   <script src='index.js'></script>
 </body>
