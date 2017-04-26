@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  background-color: #338;
+  color: white;
+  font-family: "courier new", sans-serif;
+  text-align: justify;
+}
+
+#contentWrapper{
+  width: 90%;
+  margin: auto;
+  background-color: #112;
+}
+
+header{
+  padding: 30px;
+  padding-left: 60px; 
+}
+
+article {
+  width: 85%;
+  margin: auto;
+}
+
+h1 {
+  color: #338;
+  
+}
+
+h2 {
+  color: #88E;
+  border-bottom: solid 2px #88E;
+}
+
+h4{
+  margin: 0px;
+}
+
+section{
+  padding: 20px;
+}
+
+.two-column {
+  display: flex;
+}
+
+.two-column section {
+  width: 50%;
+}
+
