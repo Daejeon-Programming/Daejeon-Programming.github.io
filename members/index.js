@@ -1,5 +1,6 @@
 var members = [ //name of the memenbers pages to create proper links
-  'sylvain'
+  'sylvain',
+  'gvkalra',
 ]
 
 members.sort(); //to get the list sorted alphabetically
