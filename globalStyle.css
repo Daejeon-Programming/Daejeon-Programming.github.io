@@ -7,18 +7,29 @@ green  : #00A961
 blue   : #6CB6D3
 white  : #FFF
 black  : #000
+
+reworked color scheme:
+red    : #D82022
+orange : #ECA124
+yellow : #F8D500
+green  : #00A961
+blue   : #69B1CF
+white  : #DDD
+black  : #000
 */
 
 body {
   margin: 0px;
   min-height: 100vh;
-  background-color : #6CB6D3;
+  background-color : #9BC;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  background-color: #F8D500;
+  border: 5px solid #F8D500;
+  border-radius: 4px;
+  background-color: #DDD;
   text-align: center;
   padding: 30px;
   margin-bottom: 10px;
@@ -30,13 +41,17 @@ header {
 }
 
 nav {
-  background-color: #ECA124;
+  border: 5px solid #ECA124;
+  border-radius: 4px;
+  background-color: #DDD;
   margin: 10px;
   padding: 20px;
 }
 
 article {
-  background-color: #00A961;
+  border: 5px solid #00A961;
+  border-radius: 4px;
+  background-color: #DDD;
   margin: 10px;
   padding: 20px;
 }
@@ -46,7 +61,9 @@ h2 {
 }
 
 footer {
-  background-color: #D82022;
+  border: 5px solid #D82022;
+  border-radius: 4px;
+  background-color: #DDD;
   margin-top: 10px;
   padding: 30px;
   text-align: center;
